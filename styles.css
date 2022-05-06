@@ -51,6 +51,46 @@ header p {
   margin-top: 20px;
 }
 
-.content .meal-img img{
+.content .meal-img img {
   width: 100vh;
+}
+
+.content-desc {
+  margin-top: 30px;
+}
+
+.content-desc .ingredients .lead {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+
+.content-desc .ingredients .item {
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.content-desc ul {
+  margin-top: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #333333;
+}
+
+.content-desc ul li {
+  padding-top: 10px;
+  list-style-type: none;
+}
+
+.content-desc .ingredients {
+  width: 554px;
 }
