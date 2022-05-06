@@ -13,7 +13,7 @@
 /* body */
 body {
   font-family: 'Playfair Display', serif;
-  margin: 5vh 45vh;
+  margin: 5vh 35vh;
 }
 
 header p {
@@ -27,6 +27,7 @@ header p {
 }
 
 .comment {
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   color: #4F4F4F;
@@ -43,20 +44,21 @@ header p {
 
 .comment img {
   padding-top: 5px;
-  padding-right: 7px;
+  padding-right: 15px;
   height: fit-content;
 }
 
 .content {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .content .meal-img img {
-  width: 100vh;
+  width: 120vh;
 }
 
 .content-desc {
   margin-top: 30px;
+  display: flex;
 }
 
 .content-desc .ingredients .lead {
@@ -94,3 +96,41 @@ header p {
 .content-desc .ingredients {
   width: 554px;
 }
+
+.content-desc .flyer {
+  margin-left: 150px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 216px;
+  height: 367px;
+  padding: 60px 40px;
+  /* display: grid;
+  place-items: center; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  font-family: 'Montserrat',
+  sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.flyer .cont .hder {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #BDBDBD;
+}
+
+.content-desc .flyer .cont {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.cont .clock-ico, .dine-ico {
+  padding-right: 5px;
+}
+
