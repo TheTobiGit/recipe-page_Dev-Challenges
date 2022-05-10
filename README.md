@@ -8,10 +8,10 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <!-- <a href="https://{your-demo-link.your-domain}">
       Demo
     </a>
-    <span> | </span>
+    <span> | </span> -->
     <a href="https://{your-url-to-the-solution}">
       Solution
     </a>
@@ -29,7 +29,7 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [How to use](#how-to-use)
+<!-- - [How to use](#how-to-use) -->
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
@@ -50,9 +50,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML]()
+- [CSS]()
+
 
 ## Features
 
@@ -60,11 +60,11 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [x] User story: This is a completed user stories
+<!-- - [x] User story: This is a completed user stories
 - [ ] User story: This is a incompleted user stories
-- [ ] User story: This is a incompleted 2nd user stories
+- [ ] User story: This is a incompleted 2nd user stories -->
 
-## How To Use
+<!-- ## How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
@@ -77,7 +77,7 @@ $ npm install
 
 # Run the app
 $ npm start
-```
+``` -->
 
 ## Acknowledgements
 
