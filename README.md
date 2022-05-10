@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://{your-demo-link.your-domain}">
+    <!-- <a href="https://{thetobigit-recipepage.netlify.app}">
       Demo
     </a>
     <span> | </span> -->
-    <a href="https://{thetobigit-recipepage.netlify.app}">
+    <a href="https://{devchallenges.io/solutions/EeiDDmvUAysOgZ2clfOl}">
       Solution
     </a>
     <span> | </span>
