@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{Dev-Challenges Recipe-Page}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span> -->
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{thetobigit-recipepage.netlify.app}">
       Solution
     </a>
     <span> | </span>
@@ -39,12 +39,12 @@
 
 ![screenshot](https://github.com/TheTobiGit/recipe-page_Dev-Challenges/blob/main/Web%20capture_10-5-2022_183250_127.0.0.1.jpeg)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+<!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
 - What was your experience?
 - What have you learned/improved?
-- Your wisdom? :)
+- Your wisdom? :) -->
 
 ### Built With
 
@@ -90,5 +90,5 @@ $ npm start
 ## Contact
 
 <!-- - Website [your-website.com](https://{thetobigit-recipepage.netlify.app}) -->
-- GitHub [@your-username](https://{github.com/TheTobiGit})
-- Twitter [TheTobiGit](https://{twitter.com/TheTobiGit})
+- GitHub [@TheTobiGit](https://{github.com/TheTobiGit})
+- Twitter [@TheTobiGit](https://{twitter.com/TheTobiGit})
