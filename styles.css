@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* body */
@@ -61,7 +61,6 @@ header p {
   display: flex;
 }
 
-/* .content-desc .ingredients */
 .lead {
   font-style: normal;
   font-weight: 700;
@@ -169,4 +168,188 @@ header p {
   text-decoration: none;
   font-weight: 500;
   color: #828282;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 499px) {
+  body {
+    margin: 0;
+    padding: 8px;
+  }
+
+  header p {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .comment {
+    width: auto;
+  }
+
+  .content .meal-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content .meal-img img {
+    width: 45vh;
+    border-radius: 10px;
+  }
+
+  .content-desc {
+    flex-direction: column-reverse;
+  }
+
+  .content-desc .ingredients {
+    width: auto;
+    margin-top: 15px;
+  }
+
+  .content-desc .flyer {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .content-desc .flyer .times {
+    display: flex;
+  }
+
+  .flyer .cont .hder {
+    font-size: 8px;
+  }
+
+  .content-desc .flyer .cont {
+    margin-right: 17px;
+    margin-bottom: 10px;
+  }
+
+  .content-desc .flyer .cont img {
+    height: 4vh;
+  }
+
+  .lead {
+    font-size: 20px;
+  }
+
+  .content-desc .ingredients .item {
+    font-size: 17px;
+  }
+
+  .content-desc ul {
+    font-size: 13px;
+  }
+
+  .instructions ul {
+    width: auto;
+  }
+
+  .instructions ul li {
+    font-size: 13px;
+  }
+
+  .link {
+    font-size: 13px;
+  }
+
+  .footer {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  body {
+    margin: 3vh 7vh;
+  }
+
+  header p {
+    font-size: 23px;
+    width: auto;
+  }
+
+  .comment {
+    width: auto;
+  }
+
+  .content .meal-img img {
+    width: 60vh;
+  }
+
+  .content-desc {
+    flex-direction: column-reverse;
+  }
+
+  .content-desc .ingredients {
+    width: auto;
+    margin-top: 15px;
+  }
+
+  .content-desc .flyer {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    line-height: 12px;
+  }
+
+  .content-desc .flyer .times {
+    display: flex;
+  }
+
+  .content-desc .flyer .cont {
+    margin-right: 17px;
+    margin-bottom: 10px;
+  }
+
+  .instructions ul {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    margin: 3vh 7vh;
+  }
+
+  .comment {
+    width: auto;
+  }
+
+  .content .meal-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content .meal-img img {
+    width: 100vh;
+  }
+
+  .content-desc .flyer {
+    height: fit-content;
+    width: 300px;
+    font-size: 11px;
+    line-height: 14px;
+    display: grid;
+    place-items: center;
+  }
+
+  .content-desc .flyer .cont {
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1339px){
+  body {
+    margin: 4vh 20vh;
+  }
 }
