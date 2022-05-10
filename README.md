@@ -90,5 +90,5 @@ $ npm start
 ## Contact
 
 <!-- - Website [your-website.com](https://{thetobigit-recipepage.netlify.app}) -->
-- GitHub [@TheTobiGit](https://{github.com/TheTobiGit})
-- Twitter [@TheTobiGit](https://{twitter.com/TheTobiGit})
+- GitHub [@TheTobiGit](https://github.com/TheTobiGit)
+- Twitter [@TheTobiGit](https://twitter.com/TheTobiGit)
